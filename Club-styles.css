@@ -1,11 +1,9 @@
 
 :root {
-    /* Spacing Scale */
+   
     --space-sm: 0.5rem;
     --space-md: 1.5rem;
     --space-lg: 3rem;
-
-
     --primary-red: #BF1E2D;    /* Brand Red */
     --primary-blue: #01AAE9;   /* Brand Blue */
     --dark-bg: #333333;
@@ -13,8 +11,6 @@
     --white: #ffffff;
     --text-main: #333333;
     --text-muted: #666666;
-
-    /* Layout & Decoration */
     --max-width: 900px;
     --shadow: 0 4px 6px rgba(0,0,0,0.1);
     --border-radius: 8px;
@@ -101,4 +97,5 @@ img {
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
 }
+
 
