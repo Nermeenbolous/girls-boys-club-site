@@ -1,19 +1,13 @@
 :root {
   --max-width: 65rem;
-  
-  /* Spacing Scale */
   --space-xs: 0.5rem;
   --space-md: 1.5rem;
   --space-lg: 3rem;
-  
-  /* Colors */
   --bg: #f8f9fa;
   --surface: #ffffff;
   --text: #2d3436;
   --primary: #0056b3; /* Classic Club Blue */
   --muted: #636e72;
-  
-  /* Effects */
   --shadow: 0 4px 6px rgba(0,0,0,0.1);
   --border-radius: 8px;
 }
@@ -54,7 +48,7 @@ h2 {
   font-size: 0.95rem;
 }
 
-/* Card Utility for sections */
+
 .card {
   background: var(--surface);
   padding: var(--space-lg);
@@ -86,3 +80,4 @@ img {
   max-width: 100%;
   border-radius: var(--border-radius);
 }
+
